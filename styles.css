@@ -1,0 +1,314 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+/* Reset CSS  */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+/* Header Style (Estilo do cabeçalho)  */
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px;
+    gap: 200px;
+}
+
+.menu {
+    display: flex;
+    gap: 15px;
+}
+
+.menu-item {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 500;
+    color: #0071A1;
+}
+
+.menu-item:hover {
+    color: #F6822A;
+}
+
+.caixa-logo {
+    position: absolute;
+    width: 180px;
+    height: 40px;
+}
+
+.agency-locale {
+    width: 190px;
+    height: 47px;
+    border: none;
+    background: #F6822A;
+    box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.12);
+    border-radius: 5px;
+    color: #fff;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 500;
+    font-size: 17px;
+}
+
+.agency-locale:hover {
+    background: #E46300;
+    box-shadow: none;
+}
+
+/* Attendence Style (Estilo do atendimento)  */
+
+.attendence-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 15px;
+    border-top: 0.4px solid;
+    border-color: #CACACA;
+    margin-bottom: 25px;
+}
+
+.attendence-title {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 800;
+    color: #0070AF;
+    margin-top: 25px;
+}
+
+.find-in-page {
+    display: flex;
+    gap: 25px;
+}
+
+.find-in-page-item {
+    color: #0070AF;
+    font-size: 14px;
+}
+.find-in-page-item:hover {
+    color: #E46300;
+}
+
+/* Digital Channels Style (Estilo do Canal Digital)  */
+
+.digital-channels {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 20px;
+    padding: 0 175px;
+    border-top: 0.4px solid;
+    border-color: #CACACA;
+    margin-bottom: 25px;
+}
+
+.digital-channels-title {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 900;
+    color: #0070AF;
+    margin-top: 25px;
+}
+
+.digital-channels-button {
+    width: 140px;
+    height: 39px;
+    border-radius: 5px;
+    background: none;
+    border: 2px solid #45c0ae;
+    box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.12);
+    color: #686868;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.digital-channels-p {
+    color: #4E4E4E
+}
+
+.digital-channels-button:hover {
+    background: #0070AF;
+    border: none;
+    color: #fff;
+}
+
+/* Find Caixa Style (Estilo do Encontrea a CAIXA)  */
+
+.find-caixa {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 20px;
+    padding: 0 175px;
+    border-top: 0.4px solid;
+    border-color: #CACACA;
+    margin-bottom: 25px;
+}
+
+.find-caixa-title {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 900;
+    color: #0070AF;
+    margin-top: 25px;
+}
+
+.find-caixa-button {
+    width: 160px;
+    height: 55px;
+    border-radius: 5px;
+    background: none;
+    border: 2px solid #45c0ae;
+    box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.12);
+    color: #686868;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.find-caixa-p {
+    color: #4E4E4E
+}
+
+.find-caixa-button:hover {
+    background: #0070AF;
+    border: none;
+    color: #fff;
+}
+
+/* Attendence Network Style (Estilo da Rede de Atendimento)  */
+
+.attendence-network {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 20px;
+    padding: 0 175px;
+    border-top: 0.4px solid;
+    border-color: #CACACA;
+    margin-bottom: 25px;
+}
+
+.attendence-network-title {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 900;
+    color: #0070AF;
+    margin-top: 25px;
+}
+
+.attendence-network-p {
+    color: #4E4E4E
+}
+
+/* Attendence Network Style (Estilo da Rede de Atendimento)  */
+
+.attendence-network {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 20px;
+    padding: 0 175px;
+    border-top: 0.4px solid;
+    border-color: #CACACA;
+    margin-bottom: 25px;
+}
+
+.attendence-network-title {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 900;
+    color: #0070AF;
+    margin-top: 25px;
+}
+
+.an-circle {
+    width: 65px;
+    height: 65px;
+}
+
+.attendence-network-subtitle {
+    font-family: 'Ubuntu', sans-serif;
+    color: #0070AF;
+}
+
+.attendence-network-p {
+    color: #4E4E4E;
+    font-size: 17px;
+    margin-top: 5px;
+}
+
+.an-call-to-action {
+    display: flex;
+    flex-direction: row;
+}
+
+.an-call-to-action div{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+.an-call-to-action div a{
+    color: #0070AF;
+    text-decoration: underline;
+}
+.an-call-to-action div a:hover{
+    color: #F6822A;;
+    text-decoration: underline;
+}
+
+/* Services Style (Estilo Seriços)  */
+
+.services {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 20px;
+    padding: 0 175px;
+    border-top: 0.4px solid;
+    border-color: #CACACA;
+    margin-bottom: 25px;
+}
+
+.services-title {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 900;
+    color: #0070AF;
+    margin-top: 25px;
+}
+
+.services-circle {
+    width: 65px;
+    height: 65px;
+    margin-right: 5px;
+}
+
+.services-subtitle {
+    font-family: 'Ubuntu', sans-serif;
+    color: #0070AF;
+}
+
+.services-p {
+    color: #4E4E4E;
+    font-size: 13px;
+}
+
+.services-call-to-action {
+    display: flex;
+    flex-direction: row;
+}
+
+.services-call-to-action div{
+    display: flex;
+    flex-direction: column;
+    
+}
+.services a{
+    color: #0070AF;
+    text-decoration: underline;
+}
+.services a:hover{
+    color: #F6822A;
+    text-decoration: underline;
+}
