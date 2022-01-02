@@ -15,15 +15,17 @@
 header {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1575px;
     align-items: center;
-    padding: 30px;
-    gap: 200px;
+    margin: auto;
+    padding: 30px
 }
 
 .menu {
     display: flex;
-    gap: 15px;
+    gap: 30px;
 }
 
 .menu-item {
@@ -32,12 +34,7 @@ header {
     color: #0071A1;
 }
 
-.menu-item:hover {
-    color: #F6822A;
-}
-
 .caixa-logo {
-    position: absolute;
     width: 180px;
     height: 40px;
 }
@@ -95,10 +92,12 @@ header {
 
 /* Digital Channels Style (Estilo do Canal Digital)  */
 
+
 .digital-channels {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    width: 100%;
     gap: 20px;
     padding: 0 175px;
     border-top: 0.4px solid;
@@ -311,4 +310,35 @@ header {
 .services a:hover{
     color: #F6822A;
     text-decoration: underline;
+}
+
+@media (max-width: 900px) {
+    .menu {
+        display: none;
+    }
+
+    header button {
+        display: none;
+    }
+
+    .one,
+    .two,
+    .three {
+        background-color: #0070AF;
+        height: 5px;
+        width: 100%;
+        margin: 6px auto;
+    }
+    .menu-toogle {
+        width: 40px;
+        height: 30px;
+        margin-right: 20px;
+    }
+}
+
+@media (max-width: 425px) {
+    .caixa-logo {
+        width: 100px;
+        height: 25px;
+    }
 }
